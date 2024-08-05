@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Quote Generator">
+        <meta name="keywords" content="HTML,CSS,JavaScript, Quotes, API">
+        <meta name="author" content="Arpit Singh Yadaav">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quote Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+            <i class="fas fa-quote-left"></i>
+            <span class="quote" id="quote"></span>
+            <i class="fas fa-quote-right"></i>
+            </h1>
+            <p class="author" id="author"></p>
+            
+            <hr/>
+            <div class="buttons">
+                <a class="instagram" id="instagram" data-size="large" target="https://www.instagram.com/arpit__8887/" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <button class="next" onclick="getNewQuote()">Next Quote</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <footer>
+            <div class="footer" >
+            <p>Developed with ❤️ by <strong> Arpit Singh Yadav</strong></p>
+          </div>
+        </footer> 
+    </body>
+</html>
